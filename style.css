@@ -43,7 +43,7 @@ html, body {
 }
 .dropMenu{
 	width: 20%;
-	background-image: url("../DEREKPOPUP/Menu.PNG");
+	background-image: url("../Menu.PNG");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 100% 100%;
@@ -74,7 +74,7 @@ html, body {
 #header{
 	width: 100%;
 	height: 650px;
-	background-image: url("../DEREKPOPUP/background1.png"); 
+	background-image: url("../background1.png"); 
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto 600px;
