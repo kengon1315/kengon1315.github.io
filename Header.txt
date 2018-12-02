@@ -1,0 +1,92 @@
+<div id="header">
+		<div id="header_form">
+			<h1>Create Your Webpage</h1>
+			<p id="small_head_text">Want more information how? Send us an email</p>
+			<input type="text" id="email_first" placeholder="Enter First Name"></input>
+			<input type="text" id="email_last" placeholder="Enter Last Name"></input>
+			<input type="text" id="email_phone" placeholder="Enter Phone Number"></input>
+			<input type="text" id="email_body" placeholder="Enter Text"></input>
+			<input type="text" id="email_header" placeholder="Enter your email address"></input>
+			<p id="submit_header">Send</p>
+		</div>
+	</div>
+	
+#header{
+	width: 100%;
+	height: 650px;
+	background-image: url("../DEREKPOPUP/background1.png"); 
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100% auto;
+	position: relative;
+	background-color: #d8d8d8;
+}
+#header_form{
+	width: 500px;
+	height: 500px;
+	background: white;
+	border-radius: 3px;
+	position: absolute;
+	margin: auto;
+	top: 75px; left: 100px; bottom: 0px;
+	color: #5b5b5b;
+	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.5);
+}
+#header_form h1{
+	margin: 50px 50px 0 50px;
+	font-size: 35px;
+}
+#small_head_text{
+	margin: 25px 50px 25px 50px;
+	font-size: 15px;
+}
+#header_form input{
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	font-size: 16px;
+}
+#email_first{
+	height: 30px;
+	width: 195px;
+	margin-left: 50px;
+}
+#email_last{
+	height: 30px;
+	width: 195px;
+	margin-left: 5px;
+}
+#email_phone{
+	width: 400px;
+	height: 30px;
+	margin: 15px 0 0 50px;
+}
+#email_body{
+	width: 400px;
+	height: 135px;
+	margin: 15px 50px 0 50px;
+}
+#email_header{
+	height: 30px;
+	margin: 15px 0 35px 50px;
+	width: 250px;
+	float: left;
+}
+#submit_header{
+	width: 140px;
+	margin-left: 10px;
+	margin-top: 15px;
+	border-radius: 3px;
+	background: #2292bf;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 18px;
+}
+#submit_header:hover , #email_header:hover {
+	cursor: pointer;
+	background: white;
+	color: #2292bf;
+	border: 1px solid #2292bf;
+}
