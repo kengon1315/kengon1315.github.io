@@ -225,14 +225,14 @@ html, body {
 	overflow-y: hidden;
 }
 #Create{
-	background-image: url("../Create.png"); 
+	background-image: url("../Create.jpeg"); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 575px;
 	overflow-y: hidden;
 }
 #Publish{
-	background-image: url("../Publish"); 
+	background-image: url("../Publish.png"); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 575px;
