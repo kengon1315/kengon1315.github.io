@@ -221,9 +221,7 @@ html, body {
 	background-color: rgb(4, 155, 12, 0.93);
 }
 .Order img{
-	image-resolution: 1dpi;
 	width: 100%;
 	height: 100%;
-	overflow-y: hidden;
 	position: absolute;
 }
