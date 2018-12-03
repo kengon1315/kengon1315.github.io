@@ -221,20 +221,20 @@ html, body {
 	background-image: url("../Collab.png"); 
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: auto 575px;
+	background-size: 100% 100%;
 	overflow-y: hidden;
 }
 #Create{
 	background-image: url("../Create.jpeg"); 
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: auto 575px;
+	background-size: 100% 100%;
 	overflow-y: hidden;
 }
 #Publish{
 	background-image: url("../Publish.png"); 
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: auto 575px;
+	background-size: 100% 100%;
 	overflow-y: hidden;
 }
