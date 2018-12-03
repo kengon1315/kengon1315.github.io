@@ -2,8 +2,11 @@ $(document).ready(function(){
 	$(".Order").hover(
 		function(){
 			
-			//grab this objects class and animate
+			//grab this objects
 			var id = "#" + $(this).attr("id") + " .OrderSlideUp";
+			
+			
+			//animating slideup
 			$(id).animate({
 				top: 0
 			},{
@@ -12,7 +15,9 @@ $(document).ready(function(){
 			});
 			
 		}, function(){
-			//make sure all animations are default
+			
+			
+			//animating slidedown
 			$(".OrderSlideUp").animate({
 				top: 270
 			}, {

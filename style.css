@@ -9,7 +9,7 @@ html, body {
 	background-color: rgba(0, 0, 0, 0.5);
 	top: 0;
 	position: fixed;
-	z-index: 10;
+	z-index: 1;
 }
 #icon{
 	height: 60px;
@@ -218,21 +218,21 @@ html, body {
 	background-color: rgb(4, 155, 12, 0.93);
 }
 #Colab{
-	background-image: url("https://d3tvpxjako9ywy.cloudfront.net/blog/content/uploads/2016/02/team-collaborate-effectively-e1455726174634-1-624x351.jpg?av=cedb97fc061c0df9d39783b959688ce1"); 
+	background-image: url("../Collab.png"); 
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: auto 575px;
 	overflow-y: hidden;
 }
 #Create{
-	background-image: url("https://www.upsidelearning.com/blog/wp-content/uploads/2016/01/five-tips-for-creating-graphics-for-mobile-devices.png"); 
+	background-image: url("../Create.png"); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 575px;
 	overflow-y: hidden;
 }
 #Publish{
-	background-image: url("https://www.self-publish.in/images/Scholargram.png"); 
+	background-image: url("../Publish"); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: auto 575px;
