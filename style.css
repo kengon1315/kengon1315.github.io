@@ -160,11 +160,13 @@ html, body {
 	color: white;
 	background: grey;
 	position: relative;
+	overflow: hidden;
 }
 .OrderSlideUp{
 	height: 400px;
 	position: relative;
 	top: 270px;
+	z-index: 1;
 }
 .Order360{
 	font-size: 35px;
@@ -210,6 +212,7 @@ html, body {
 }
 #Colab .OrderSlideUp{
 	background-color: rgb(66, 188, 244, 0.93);
+	
 }
 #Create .OrderSlideUp{
 	background-color: rgb(237, 173, 11, 0.93);
@@ -217,24 +220,10 @@ html, body {
 #Publish .OrderSlideUp{
 	background-color: rgb(4, 155, 12, 0.93);
 }
-#Colab{
-	background-image: url("../Collab.png"); 
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 100% 100%;
+.Order img{
+	image-resolution: 1dpi;
+	width: 100%;
+	height: 100%;
 	overflow-y: hidden;
-}
-#Create{
-	background-image: url("../Create.jpeg"); 
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 100% 100%;
-	overflow-y: hidden;
-}
-#Publish{
-	background-image: url("../Publish.png"); 
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 100% 100%;
-	overflow-y: hidden;
+	position: absolute;
 }
