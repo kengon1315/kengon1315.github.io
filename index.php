@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+	<script src="angular.js"></script> 
+	<link href="style.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script> 
+</head>
+<body ng-app="app1" ng-controller="ctrl1">
+	<div id="header_menu">
+		<p id="ICON">PKN</p>
+		
+		<div class="menu_option" style="float: right;" id="Cart">
+			<img title="Your Shopping Cart is Empty" id="shopping_cart" src="http://icons.iconarchive.com/icons/icons8/ios7/512/Ecommerce-Shopping-Bag-icon.png"/>
+			<p class="cartIndex">0</p>
+		</div>
+		
+		<div class="menu_option" ng-repeat="item in items" id="item.Menu">
+			<p class="optionTitle" id="">{{item.Menu}}</p>
+			<div ng-if="item.Drop == true" class="drop-down">
+			
+				<div class="menuOptions">
+					<p class="drop-down-option" ng-repeat="choice in item.Choices">{{choice}}</p>
+				</div>
+				
+				<div class="optionSpecs">
+					<h1>{{item.Menu}}</h1>
+					<img ng-repeat="image in item.Fav" src="{{image}}"/>
+				</div>
+			</div>
+		</div>
+		
+
+	</div>
+	
+	<div class="MainBody">
+		<div class="Body">
+			<h1 class="TagLine">What are you waiting for!</h1>
+			<h1 class="Headline">With a variety of games, decorations, tools for your home, family, and outdoors, we’re guaranteed to help customize your lifestyle.</h1>
+			<p class="Button" id="ShopNow">Shop Now</p>
+			<p class="Button" id="FindMore">Find More</p>	
+			
+			
+			<div id="header_form">
+				<h1>Contact Us</h1>
+				<p id="small_head_text">Want more information how? Send us an email or call us</p>
+				
+				<form class="emailForm_Form" action="email.php" method="post">
+					<input type="text" id="email_first" placeholder="First Name" name="firstname"></input>
+					<input type="text" id="email_last" placeholder="Last Name" name="lastname"></input>
+					<input type="text" id="email_body" placeholder="Enter Text" name="message"></input>
+					<input type="text" id="email_header" placeholder="Email Address" name="mailfrom"></input>
+					<button type="submit" id="submit_header" name="submit">Send</Button>
+				</form>
+			</div>
+		</div>
+		
+	
+	</div>
+	
+	<div class="HomeSlide">
+		<img class="HomeSlideImg" id="hsKitchen" src="Images/HomeMenuImages/kitchen1.jpg"/>
+	</div>
+	
+	<div class="Footer">
+		
+	
+		<p id="CopyRight">Copyright © 2019 perkanika1 | Credits</p>
+		<p id="PoweredBy">Powered by perkanika1</p>	
+	</div>
+</body>
+</html>
