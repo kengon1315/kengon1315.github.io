@@ -1,31 +1,34 @@
-$(document).ready(function(){	
-	$(".Order").hover(
+$(document).ready(function(){
+	
+	$(".menu_option").hover(
 		function(){
-			
-			//grab this objects
-			var id = "#" + $(this).attr("id") + " .OrderSlideUp";
-			
-			
-			//animating slideup
-			$(id).animate({
-				top: 0
-			},{
-				queue: false,
-				duration: 300
-			});
-			
-		}, function(){
-			
-			
-			//animating slidedown
-			$(".OrderSlideUp").animate({
-				top: 270
-			}, {
-				queue: false,
-				duration: 300
-			});
-			
+			$(this).children("div").show();
+		},
+		function(){
+			$(this).children("div").hide();
 		});
 	
+	
+	
+	/**
+	var width = $(document).width();
+	var LEFT = 0;
+	
+	for(var i = 1; i < $(".HomeSlide").children().length + 1; i++){
+		
+		LEFT -= width;
+		
+		$(".HomeSlide").animate({
+				left: LEFT
+				},{
+				queue: true,
+				duration: 3000
+				}, function(){
+					var child = $(".HomeSlide :nth-child(" + i + ")").attr("id");
+					//$(".HomeSlide #" + child + "").css("float", "right");
+				});
+		
+		console.log(LEFT);
+	}
+	**/
 });
-

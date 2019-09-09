@@ -1,0 +1,293 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: IntCircularPro,Arial,sans-serif;
+	overflow-x: hidden;
+}
+#header_menu{
+	width: 100%;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 2;
+}
+#ICON{
+	float: left;
+	height: 50px;
+	font-size: 40px;
+	margin: 25px 15px 25px 35px;
+	color: white;
+}
+.menu_option{
+	float: right;
+	padding: 0 25px;
+	text-align: center;
+	z-index: 1;
+}
+.optionTitle{
+	height: 15px;
+    margin: 37px 0 38px 0;
+	color: white;
+}
+.optionTitle:hover{
+	color: #f2f2f2;
+}
+.drop-down{
+	background: white;
+	position: absolute;
+    width: 100%;
+    left: 0;
+	display: none;
+	padding: 50px 0;
+	z-index: 1;
+}
+.menuOptions{
+	width: 19%;
+	float: left;
+	height: 200%;
+}
+.drop-down-option{
+	height: 15px;
+    padding: 5px 0;
+	margin: 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+.menu_option:hover{
+	cursor: pointer;
+}
+.drop-down-option:hover{
+	color: rgb(0,0,0,0.55);
+}
+.optionSpecs{
+	position: relative;
+	float: right;
+	width: 80%;
+	border-left: 1px solid #c0c0c0;
+}
+.optionSpecs h1 {
+	width: 100%;
+	font-size: 25px;
+	margin: 0 0 25px 0;
+}
+.optionSpecs img {
+	float: left;
+	width: 20%;
+	margin: 0 6%;
+}
+.optionSpecs p {
+	display: none;
+}
+
+#Cart{
+	position: relative;
+}
+#shopping_cart{
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin: 25px 25px;
+	filter: invert(1);
+}
+.cartIndex{
+	position: absolute;
+	height: 5px;
+	margin: auto;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 1;
+	color: white;
+}
+
+
+#store{
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	padding: none;
+	top: 525px; right: 0; left: 0;
+}
+.store-item{
+	float: left;
+	width: 17%;
+	margin: 25px 1.5%;
+}
+.store-item img {
+	width: 100%;
+	height: auto;
+}
+.store-item p {
+	float: left;
+	height: 20px;
+	font-size: 20px;
+	margin: 15px 5px;
+	text-align: center;
+}
+
+.Body{
+	width: 95%;
+	height: 80%;
+	top: 0; left: 0; bottom: 0; right: 0;
+	position: absolute;
+	margin: auto;
+}
+.TagLine{
+	height: 25px;
+	width: 50%;
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 100px; left: 1%; 
+	z-index: 1;
+	font-size: 50px;
+}
+.Headline{
+	height: 25px;
+	width: 30%;
+    color: white;
+    position: absolute;
+    margin: auto;
+    top: 225px; bottom: 0px; left: 10%;
+    z-index: 1;
+	font-size: 20px;
+	text-align: center;
+	
+}
+.Button{
+	margin: 0;
+	float: left;
+	z-index: 1;
+	position: absolute;
+	height: 15px;
+	color: white;
+	font-size: 15px;
+	top: 0; bottom: 0;
+	margin: auto;
+}
+
+#ShopNow{
+	background: white;
+	color: black;
+	padding: 25px 70px;
+	left: 30px;
+}
+#ShopNow:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding: 23px 68px;
+	border: 2px solid white;
+}
+#FindMore{
+	background: rgba(0,0,0,0.5);
+	color: white;
+	left: 300px;
+	padding: 23px 68px;
+	border: 2px solid white;
+}
+#FindMore:hover{
+	cursor: pointer;
+	background: white;
+	color: black;
+	padding: 25px 70px;
+	border: 0px;
+}
+
+.HomeSlide{
+	width: 100%;
+	z-index: 0;
+	position: fixed;
+}
+.HomeSlide img{
+	width: 100%;
+	float: left;
+	z-index: 0;
+}
+
+.Footer{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: -200px;
+	background: white;
+	z-index: 1;
+	text-align: center;
+}
+.Footer p{
+	margin-top: 25px;
+}
+
+#header_form{
+	width: 31%;
+	height: 425px;
+	background: white;
+	border-radius: 3px;
+	position: absolute;
+    right: 30px; bottom: 0px;
+	color: #5b5b5b;
+	border: 1px solid #c0c0c0;
+	z-index: 1;
+}
+
+#header_form h1{
+	margin: 25px 50px 0 50px;
+	font-size: 35px;
+}
+#small_head_text{
+	margin: 25px 10%;
+	font-size: 15px;
+}
+#header_form input{
+	border-radius: 3px;
+	border: 1px solid #c3c3c3;
+	text-align: center;
+	font-size: 16px;
+}
+#email_first{
+	height: 30px;
+	width: 39%;
+	margin-left: 10%;
+}
+#email_last{
+	height: 30px;
+	width: 39%;
+	margin-left: 1%;
+}
+#email_phone{
+	width: 80%;
+	height: 30px;
+	margin: 15px 0 0 10%;
+}
+#email_body{
+	width: 80%;
+	height: 135px;
+	margin: 15px 10% 0 10%;
+}
+#email_header{
+	height: 30px;
+	margin: 15px 0 35px 10%;
+	width: 50%;
+	float: left;
+}
+#submit_header{
+	width: 28%;
+	margin-left: 2%;
+	margin-top: 15px;
+	border-radius: 3px;
+	background-color: #448cff;
+	color: white;
+	float: left;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 18px;
+	border: none;
+}
+#submit_header:hover , #email_header:hover {
+	cursor: pointer;
+	background: white;
+	color: #2292bf;
+	border: 1px solid #2292bf;
+}
